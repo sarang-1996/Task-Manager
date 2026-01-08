@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Task Manager</title>
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- HEADER -->
+    <header>
+      <h1>✨ My Tasks</h1>
+
+      <!-- Date and Weather Info -->
+      <div class="date-weather">
+        <div class="date" id="dateTime" aria-label="Current date and time"></div>
+        <div class="weather" aria-label="Current weather">
+          <img id="weatherIcon" alt="Weather icon" />
+          <span id="weather"></span>
+        </div>
+      </div>
+
+      <!-- Theme toggle button -->
+      <button id="themeBtn" title="Toggle dark mode" aria-pressed="false">🌙</button>
+    </header>
+
+    <!-- SUMMARY COUNTERS -->
+    <section class="summary">
+      <div class="active-tasks" aria-label="Active tasks count">
+        <span>Active</span>
+        <span id="activeCount">0</span>
+      </div>
+      <div class="completed-tasks" aria-label="Completed tasks count">
+        <span>Completed</span>
+        <span id="completedCount">0</span>
+      </div>
+    </section>
+
+    <!-- TASK FORM -->
+    <form id="taskForm" aria-label="Add a new task">
+      <input
+        type="text"
+        id="taskInput"
+        placeholder="Add a new task..."
+        required
+        aria-required="true"
+      />
+      <button type="submit" aria-label="Add task">+</button>
+    </form>
+
+    <!-- FILTER BUTTONS -->
+    <nav class="filters" aria-label="Task filters">
+      <button id="allBtn" class="active">All</button>
+      <button id="activeBtn">Active</button>
+      <button id="completedBtn">Completed</button>
+    </nav>
+
+    <!-- TASK LIST -->
+    <ul id="taskList" class="task-list" aria-label="Task list"></ul>
+  </div>
+
+  <!-- Main script -->
+  <script src="js/script.js"></script>
+</body>
+</html>
