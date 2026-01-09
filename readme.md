@@ -49,7 +49,7 @@ Manage your tasks efficiently with a sleek, responsive interface, dark mode, liv
 ## 🚀 Live Demo
 
 You can enable GitHub Pages for this repository to view it live:  
-`https://sarang-1996.github.io/task-manager/`
+`https://sarang-1996.github.io/Task-Manager/`
 
 ---
 
@@ -57,7 +57,7 @@ You can enable GitHub Pages for this repository to view it live:
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/sarang-1996/task-manager.git
+   git clone https://github.com/sarang-1996/Task-Manager.git
 
 
 ---
