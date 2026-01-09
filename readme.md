@@ -5,9 +5,14 @@ Manage your tasks efficiently with a sleek, responsive interface, dark mode, liv
 
 ---
 
-## 📸 Screenshot
 
-![Task Manager Screenshot](screenshot.png)
+## 📸 Screenshots
+
+| ☀️ Light Mode | 🌙 Dark Mode |
+|--------------|-------------|
+| ![Light Mode](screenshots/lightmode.png) | ![Dark Mode](screenshots/darkmode.png) |
+
+
 
 ---
 
@@ -26,10 +31,11 @@ Manage your tasks efficiently with a sleek, responsive interface, dark mode, liv
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Open-Meteo API
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Open-Meteo API](https://img.shields.io/badge/Open--Meteo%20API-0093DD?style=for-the-badge&logo=cloud&logoColor=white)
+
 
 ---
 
@@ -43,7 +49,7 @@ Manage your tasks efficiently with a sleek, responsive interface, dark mode, liv
 ## 🚀 Live Demo
 
 You can enable GitHub Pages for this repository to view it live:  
-`https://your-username.github.io/repository-name/`
+`https://sarang-1996.github.io/task-manager/`
 
 ---
 
@@ -51,9 +57,16 @@ You can enable GitHub Pages for this repository to view it live:
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/repository-name.git
+   git clone https://github.com/sarang-1996/task-manager.git
 
 
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+
+---
 
 made by Sara Carvalho for a javascript class @cesae digital
 💻 https://github.com/sarang-1996
